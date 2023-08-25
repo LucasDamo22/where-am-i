@@ -1,0 +1,158 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/lucas.damo/Documents/Sistemas-Digitais
+T_opt
+!s110 1693001219
+VMUI4^Bg@bEORW:9cR9Uz_2
+04 12 5 work tb_ondeestou teste 1
+=1-0023aeb80a01-64e92603-713a0-1c5c1e
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc=lprn
+tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+Eondeestou
+Z2 w1693001214
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z7 8ondeestou.vhd
+Z8 Fondeestou.vhd
+l0
+Z9 L11 1
+V=IHe>c2=gOdf>f1D2kG@31
+!s100 WW=O6XaHKGTXUJ5o7F?Zg0
+Z10 OL;C;2021.3;73
+32
+Z11 !s110 1693001218
+!i10b 1
+Z12 !s108 1693001218.000000
+Z13 !s90 -reportprogress|300|-work|work|ondeestou.vhd|
+Z14 !s107 ondeestou.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Aondeestou
+R3
+R4
+R5
+R6
+Z17 DEx4 work 9 ondeestou 0 22 =IHe>c2=gOdf>f1D2kG@31
+!i122 0
+l66
+L29 467
+V6PonlBnA7hI48gHZK^INh3
+!s100 aeB<Gak@HB]R6`=iJfhBU3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Etb_ondeestou
+Z18 w1693000965
+R3
+R4
+R5
+R6
+!i122 1
+R1
+Z19 8tb_ondeestou.vhd
+Z20 Ftb_ondeestou.vhd
+l0
+R9
+VZNkf`H^F:QBOY4gM=6JY10
+!s100 T[Je^YPB2Vlc2hM``c78W2
+R10
+32
+R11
+!i10b 1
+R12
+Z21 !s90 -reportprogress|300|-work|work|tb_ondeestou.vhd|
+Z22 !s107 tb_ondeestou.vhd|
+!i113 0
+R15
+R16
+Ateste
+R17
+R3
+R4
+R5
+R6
+DEx4 work 12 tb_ondeestou 0 22 ZNkf`H^F:QBOY4gM=6JY10
+!i122 1
+l111
+L14 160
+V9mzRD:;gXbD6al57E:MKC1
+!s100 ldV?PKILO4YOJ_e4_dgdO1
+R10
+32
+R11
+!i10b 1
+R12
+R21
+R22
+!i113 0
+R15
+R16

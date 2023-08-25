@@ -1,0 +1,3468 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021 Linux 4.18.0-477.21.1.el8_8.x86_64
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+!do
+# no event matches "do"
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:26:45 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(429): (vcom-1136) Unknown identifier "CONV_STD_LOGIC_VECTOR".
+# ** Error: ondeestou.vhd(429): (vcom-1590) Bad expression in right operand of infix expression 'and'.
+# ** Error: ondeestou.vhd(429): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+# ** Error: ondeestou.vhd(433): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: ondeestou.vhd(445): VHDL Compiler exiting
+# End time: 11:26:45 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:27:09 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(429): (vcom-1136) Unknown identifier "CONV_STD_LOGIC_VECTOR".
+# ** Error: ondeestou.vhd(429): (vcom-1590) Bad expression in right operand of infix expression 'and'.
+# ** Error: ondeestou.vhd(429): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+# ** Error: ondeestou.vhd(433): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: ondeestou.vhd(445): VHDL Compiler exiting
+# End time: 11:27:09 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:30:08 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(429): Signal "count" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type std.STANDARD.INTEGER.
+# ** Error: ondeestou.vhd(429): Signal "count" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type std.STANDARD.INTEGER.
+# ** Error: ondeestou.vhd(433): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ondeestou.vhd(442): (vcom-1136) Unknown identifier "CONV_STD_LOGIC_VECTOR".
+# ** Note: ondeestou.vhd(445): VHDL Compiler exiting
+# End time: 11:30:08 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:32:11 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(433): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ondeestou.vhd(442): (vcom-1136) Unknown identifier "CONV_STD_LOGIC_VECTOR".
+# ** Note: ondeestou.vhd(445): VHDL Compiler exiting
+# End time: 11:32:11 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+!do
+# do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:32:39 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(433): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ondeestou.vhd(442): (vcom-1136) Unknown identifier "CONV_STD_LOGIC_VECTOR".
+# ** Note: ondeestou.vhd(445): VHDL Compiler exiting
+# End time: 11:32:39 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:33:32 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(442): (vcom-1136) Unknown identifier "CONV_STD_LOGIC_VECTOR".
+# ** Note: ondeestou.vhd(445): VHDL Compiler exiting
+# End time: 11:33:33 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:34:49 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:34:49 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:34:49 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:34:49 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:34:49 on Aug 25,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lucas.damo/Documents/Sistemas-Digitais/wave.do
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:36:33 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:36:33 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:36:33 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:36:33 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:36:34 on Aug 25,2023, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:36:34 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 1105 ns  Iteration: 0  Process: /tb_ondeestou/dut/line__226 File: ondeestou.vhd Line: 431
+# Fatal error in Process line__226 at ondeestou.vhd line 431
+# 
+# HDL call sequence:
+# Stopped at ondeestou.vhd 431 Process line__226
+# 
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:36:49 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:36:49 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:36:49 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:36:49 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:36:50 on Aug 25,2023, Elapsed time: 0:00:16
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:36:50 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 1105 ns  Iteration: 0  Process: /tb_ondeestou/dut/line__226 File: ondeestou.vhd Line: 431
+# Fatal error in Process line__226 at ondeestou.vhd line 431
+# 
+# HDL call sequence:
+# Stopped at ondeestou.vhd 431 Process line__226
+# 
+add wave -position 16  sim:/tb_ondeestou/dut/comparar
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lucas.damo/Documents/Sistemas-Digitais/wave.do
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:38:33 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:38:34 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:38:34 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:38:34 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:38:34 on Aug 25,2023, Elapsed time: 0:01:44
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:38:34 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 1105 ns  Iteration: 0  Process: /tb_ondeestou/dut/line__226 File: ondeestou.vhd Line: 431
+# Fatal error in Process line__226 at ondeestou.vhd line 431
+# 
+# HDL call sequence:
+# Stopped at ondeestou.vhd 431 Process line__226
+# 
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:39:37 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:39:37 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:39:37 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:39:37 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:39:38 on Aug 25,2023, Elapsed time: 0:01:04
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:39:38 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:39:53 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:39:53 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:39:53 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:39:53 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:39:54 on Aug 25,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:39:54 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+add wave -position 23  sim:/tb_ondeestou/dut/num_sala
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lucas.damo/Documents/Sistemas-Digitais/wave.do
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:42:20 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:42:20 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:42:20 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:42:20 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:42:21 on Aug 25,2023, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:42:21 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+add wave -position 19  sim:/tb_ondeestou/dut/found_up
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lucas.damo/Documents/Sistemas-Digitais/wave.do
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:44:36 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:44:36 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:44:36 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:44:36 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:44:37 on Aug 25,2023, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:44:37 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+add wave -position 19  sim:/tb_ondeestou/dut/found_sala
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lucas.damo/Documents/Sistemas-Digitais/wave.do
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:45:12 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:45:12 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:45:12 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:45:12 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:45:13 on Aug 25,2023, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:45:13 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:49:36 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(432): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Note: ondeestou.vhd(447): VHDL Compiler exiting
+# End time: 11:49:36 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:51:56 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:51:56 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:51:56 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:51:56 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:52:06 on Aug 25,2023, Elapsed time: 0:06:53
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:52:06 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:52:25 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:52:25 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:52:25 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:52:25 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:52:26 on Aug 25,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:52:26 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:55:17 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 11:55:17 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 11:55:17 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 11:55:17 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:55:18 on Aug 25,2023, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 11:55:18 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:00:32 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(60): near "x": (vcom-1576) expecting BEGIN.
+# ** Note: ondeestou.vhd(60): VHDL Compiler exiting
+# End time: 12:00:32 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:00:43 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 12:00:43 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:00:43 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 12:00:43 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:00:44 on Aug 25,2023, Elapsed time: 0:05:26
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 12:00:44 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:02:06 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 12:02:06 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:02:06 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 12:02:06 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:02:07 on Aug 25,2023, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 12:02:07 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:18:35 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 12:18:35 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 12:18:35 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 12:18:35 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:18:36 on Aug 25,2023, Elapsed time: 0:16:29
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 12:18:36 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:23:34 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 13:23:34 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:23:34 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 13:23:34 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:23:35 on Aug 25,2023, Elapsed time: 1:04:59
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 13:23:35 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# do_write(): BLOCKFILE ERROR (write): unexpected error (errno = 5)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:23:54 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 13:23:54 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:23:54 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 13:23:54 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:23:55 on Aug 25,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 13:23:55 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:24:18 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 13:24:18 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:24:19 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 13:24:19 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:24:19 on Aug 25,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 13:24:19 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:26:32 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 13:26:32 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:26:32 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 13:26:32 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:26:33 on Aug 25,2023, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 13:26:33 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:52:01 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 13:52:01 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:52:01 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 13:52:02 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:52:02 on Aug 25,2023, Elapsed time: 0:25:29
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 13:52:02 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:52:46 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 13:52:47 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 13:52:47 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 13:52:47 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:52:47 on Aug 25,2023, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 13:52:47 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:00:01 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:00:01 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:00:01 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 14:00:02 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:00:02 on Aug 25,2023, Elapsed time: 0:07:15
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 14:00:02 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+!do
+# do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:01:19 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:01:19 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:01:19 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 14:01:19 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:01:20 on Aug 25,2023, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 14:01:20 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:02:07 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:02:07 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:02:07 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 14:02:07 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:02:08 on Aug 25,2023, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 14:02:08 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do!
+# invalid command name "do!"
+!do
+# do!
+# invalid command name "do!"
+!do
+# do!
+# invalid command name "do!"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:03:56 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:03:56 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:03:56 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(147): near "=": (vcom-1576) expecting ';'.
+# ** Note: tb_ondeestou.vhd(163): VHDL Compiler exiting
+# End time: 14:03:57 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:05:12 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:05:13 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:05:13 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(148): near "=": (vcom-1576) expecting ';'.
+# ** Note: tb_ondeestou.vhd(164): VHDL Compiler exiting
+# End time: 14:05:13 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:05:31 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:05:32 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:05:32 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(148): near "(": (vcom-1576) expecting STRING or IDENTIFIER or ALL or <<.
+# ** Note: tb_ondeestou.vhd(164): VHDL Compiler exiting
+# End time: 14:05:32 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:05:55 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:05:55 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:05:55 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 14:05:56 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:05:56 on Aug 25,2023, Elapsed time: 0:03:48
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 14:05:56 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:06:34 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:06:34 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:06:34 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 14:06:34 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:06:35 on Aug 25,2023, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 14:06:35 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:07:35 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:07:35 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:07:35 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 14:07:35 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:07:36 on Aug 25,2023, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 14:07:36 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:09:44 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 14:09:44 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:09:44 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 14:09:44 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:09:45 on Aug 25,2023, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 14:09:45 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:27:09 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:27:09 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:27:09 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:27:10 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:27:10 on Aug 25,2023, Elapsed time: 1:17:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:27:10 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:28:03 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:28:03 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:28:03 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:28:03 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:28:04 on Aug 25,2023, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:28:04 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:28:15 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:28:15 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:28:15 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:28:15 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:28:16 on Aug 25,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:28:16 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+# Causality operation skipped due to absence of debug database file
+# dfAddDataflowFromWave: ** UI-Msg: (vish-4014) No objects found matching 'walls'.
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:28:46 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:28:46 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:28:46 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:28:46 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:28:47 on Aug 25,2023, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:28:47 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:30:04 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:30:04 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:30:04 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:30:04 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:30:05 on Aug 25,2023, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:30:05 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:30:43 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:30:43 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:30:43 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:30:43 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:30:44 on Aug 25,2023, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:30:44 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:31:35 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:31:36 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:31:36 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:31:36 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:31:36 on Aug 25,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:31:36 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:45:50 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:45:50 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:45:50 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:45:50 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:45:51 on Aug 25,2023, Elapsed time: 0:14:15
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:45:51 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:57:41 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:57:42 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:57:42 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(154): Prefix of attribute "range" must be appropriate for an array object or must denote an array subtype.
+# ** Note: tb_ondeestou.vhd(171): VHDL Compiler exiting
+# End time: 15:57:42 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:58:35 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 15:58:35 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:58:35 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 15:58:35 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:58:36 on Aug 25,2023, Elapsed time: 0:12:45
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 15:58:36 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:05:09 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:05:09 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:05:09 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(155): (vcom-1136) Unknown identifier "rooms".
+# ** Error: tb_ondeestou.vhd(156): (vcom-1136) Unknown identifier "rooms".
+# ** Note: tb_ondeestou.vhd(170): VHDL Compiler exiting
+# End time: 16:05:09 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:05:17 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:05:17 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:05:17 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(155): Prefix of selected name cannot be type conversion (room) expression.
+# ** Error: tb_ondeestou.vhd(155): Invalid prefix (type conversion (to room)) for expanded name.
+# ** Error: tb_ondeestou.vhd(156): Prefix of selected name cannot be type conversion (room) expression.
+# ** Error: tb_ondeestou.vhd(156): Invalid prefix (type conversion (to room)) for expanded name.
+# ** Note: tb_ondeestou.vhd(170): VHDL Compiler exiting
+# End time: 16:05:17 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:06:49 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:06:49 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:06:49 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(155): Prefix of selected name cannot be type conversion (room) expression.
+# ** Error: tb_ondeestou.vhd(155): Invalid prefix (type conversion (to room)) for expanded name.
+# ** Error: tb_ondeestou.vhd(155): near ":": (vcom-1576) expecting ';'.
+# ** Note: tb_ondeestou.vhd(170): VHDL Compiler exiting
+# End time: 16:06:49 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:06:59 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:06:59 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:06:59 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(155): Prefix of selected name cannot be type conversion (room) expression.
+# ** Error: tb_ondeestou.vhd(155): Invalid prefix (type conversion (to room)) for expanded name.
+# ** Error: tb_ondeestou.vhd(155): near ":": (vcom-1576) expecting ';'.
+# ** Note: tb_ondeestou.vhd(170): VHDL Compiler exiting
+# End time: 16:07:00 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:07:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:07:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:07:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# ** Error: tb_ondeestou.vhd(155): Prefix of selected name cannot be type conversion (room) expression.
+# ** Error: tb_ondeestou.vhd(155): Invalid prefix (type conversion (to room)) for expanded name.
+# ** Error: tb_ondeestou.vhd(156): Prefix of selected name cannot be type conversion (room) expression.
+# ** Error: tb_ondeestou.vhd(156): Invalid prefix (type conversion (to room)) for expanded name.
+# ** Note: tb_ondeestou.vhd(170): VHDL Compiler exiting
+# End time: 16:07:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 6
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work tb_ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:08:08 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:08:08 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:08:08 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:08:08 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:08:09 on Aug 25,2023, Elapsed time: 0:09:33
+# Errors: 5, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:08:09 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+add wave -position 11  sim:/tb_ondeestou/dut/x_starter
+add wave -position 12  sim:/tb_ondeestou/dut/y_starter
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lucas.damo/Documents/Sistemas-Digitais/wave.do
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:09:33 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:09:33 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:09:33 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:09:33 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:09:34 on Aug 25,2023, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:09:34 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lucas.damo/Documents/Sistemas-Digitais/wave.do
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:14:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:14:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:14:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:14:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:14:15 on Aug 25,2023, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:14:15 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:14:40 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:14:40 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:14:40 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:14:40 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:14:41 on Aug 25,2023, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:14:41 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:15:53 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:15:54 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:15:54 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:15:54 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:15:54 on Aug 25,2023, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:15:54 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:16:49 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:16:50 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:16:50 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:16:50 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:16:51 on Aug 25,2023, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:16:51 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:23:01 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:23:01 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:23:01 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:23:01 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:23:02 on Aug 25,2023, Elapsed time: 0:06:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:23:02 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:36:07 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:36:07 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:36:07 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:36:07 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:36:08 on Aug 25,2023, Elapsed time: 0:13:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:36:08 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:41:44 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:41:44 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:41:44 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:41:45 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:41:46 on Aug 25,2023, Elapsed time: 0:05:38
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:41:46 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 1895 ns  Iteration: 0  Process: /tb_ondeestou/dut/line__229 File: ondeestou.vhd Line: 453
+# Fatal error in Process line__229 at ondeestou.vhd line 453
+# 
+# HDL call sequence:
+# Stopped at ondeestou.vhd 453 Process line__229
+# 
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:42:21 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:42:22 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:42:22 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:42:22 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:42:23 on Aug 25,2023, Elapsed time: 0:00:37
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:42:23 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 1895 ns  Iteration: 0  Process: /tb_ondeestou/dut/line__229 File: ondeestou.vhd Line: 453
+# Fatal error in Process line__229 at ondeestou.vhd line 453
+# 
+# HDL call sequence:
+# Stopped at ondeestou.vhd 453 Process line__229
+# 
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:52:42 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 16:52:42 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:52:42 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 16:52:42 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:52:43 on Aug 25,2023, Elapsed time: 0:10:20
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 16:52:43 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 1935 ns  Iteration: 0  Process: /tb_ondeestou/dut/line__229 File: ondeestou.vhd Line: 453
+# Fatal error in Process line__229 at ondeestou.vhd line 453
+# 
+# HDL call sequence:
+# Stopped at ondeestou.vhd 453 Process line__229
+# 
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:01:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:01:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:01:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:01:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:01:15 on Aug 25,2023, Elapsed time: 0:08:32
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:01:15 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:02:41 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:02:41 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:02:41 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:02:41 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:02:42 on Aug 25,2023, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:02:42 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:10:46 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:10:46 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:10:46 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:10:46 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:10:47 on Aug 25,2023, Elapsed time: 0:08:05
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:10:47 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:15:27 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:15:27 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:15:27 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:15:27 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:15:28 on Aug 25,2023, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:15:28 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:24:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:24:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:24:14 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:24:14 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:24:15 on Aug 25,2023, Elapsed time: 0:08:47
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:24:15 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:26:50 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:26:51 on Aug 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:26:51 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:26:51 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:26:52 on Aug 25,2023, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:26:52 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:28:44 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:28:44 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:28:44 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:28:44 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:28:45 on Aug 25,2023, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:28:45 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:29:13 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:29:13 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:29:13 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:29:13 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:29:14 on Aug 25,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:29:14 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:30:46 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:30:46 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:30:46 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:30:46 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:47 on Aug 25,2023, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:30:48 on Aug 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:32:52 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(308): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: ondeestou.vhd(494): VHDL Compiler exiting
+# End time: 17:32:52 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:33:01 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# ** Error: ondeestou.vhd(308): near "'": syntax error
+# ** Note: ondeestou.vhd(494): VHDL Compiler exiting
+# End time: 17:33:01 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ondeestou.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:33:30 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 17:33:30 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:33:30 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 17:33:30 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:33:31 on Aug 25,2023, Elapsed time: 0:02:43
+# Errors: 2, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 17:33:31 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 19:03:51 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 19:03:51 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 19:03:51 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 19:03:51 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:03:52 on Aug 25,2023, Elapsed time: 1:30:21
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 19:03:52 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lucas.damo@gaphs17.portoalegre.pucrsnet.br.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 19:06:58 on Aug 25,2023
+# vcom -reportprogress 300 -work work ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ondeestou
+# -- Compiling architecture ondeestou of ondeestou
+# End time: 19:06:58 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 19:06:58 on Aug 25,2023
+# vcom -reportprogress 300 -work work tb_ondeestou.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ondeestou
+# -- Compiling architecture teste of tb_ondeestou
+# -- Loading entity ondeestou
+# End time: 19:06:58 on Aug 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:06:59 on Aug 25,2023, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ps work.tb_ondeestou 
+# Start time: 19:06:59 on Aug 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_ondeestou(teste)#1
+# Loading work.ondeestou(ondeestou)#1
+# 1
+# 1

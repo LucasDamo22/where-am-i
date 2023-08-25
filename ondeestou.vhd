@@ -1,0 +1,495 @@
+---------------------------------------------------------------------------------------------------------
+-- TRABALHO 1 - sistemas DIGITAIS
+-- AUTHORS: Lucas Damo
+-- DATE: 2/2023
+---------------------------------------------------------------------------------------------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.STD_LOGIC_unsigned.all;
+use IEEE.std_logic_arith.all;
+
+entity ondeestou is
+   port (
+      clock: in STD_LOGIC;
+      reset: in STD_LOGIC;
+      ---- interface para pedir localização
+      x, y:   in STD_LOGIC_VECTOR (5 downto 0);
+      achar:  in STD_LOGIC;
+      prog:   in STD_LOGIC;
+      ---- interface com a memória
+      address:  out STD_LOGIC_VECTOR (11 downto 0);
+      ponto:     in STD_LOGIC;
+      ---- interface com o resultado da localização
+      fim:     out STD_LOGIC;
+      sala:    out STD_LOGIC_VECTOR (3 downto 0)
+      ); 
+end ondeestou;
+ 
+
+architecture ondeestou of ondeestou is
+
+  type coord is record
+    x:    STD_LOGIC_VECTOR (5 downto 0);      
+    y:    STD_LOGIC_VECTOR (5 downto 0);
+  end record;
+  --- definição do array para armazenar as coordenadas das salas 
+  constant N_SALAS: integer := 8;
+  type room is array(0 to N_SALAS) of coord ;
+  signal salas : room ; 
+  -- máquina de estados
+  type states is (init, receiving_rooms, waiting_coords,
+                  set_find_y1, set_find_y0, set_find_x0, set_find_x1,
+                  find_x0, find_x1, find_y0, find_y1,
+                  ver_S_wall, ver_N_wall, ver_W_wall, ver_E_wall,
+                  set_ver_S_wall, set_ver_N_wall, set_ver_W_wall, set_ver_E_wall,
+                  delta_x_y,
+                  fim_state, identify_room, not_in_room
+                  );
+  signal EA, PE: states;
+
+
+      -- 
+  signal cont_sala : std_logic_vector(3 downto 0);
+
+   ---------------------
+   -- control signals --
+   ---------------------
+   signal found_up, found_down, found_left, found_right,
+          found_x0, found_x1, found_y0, found_y1,
+          valid_N_wall, valid_S_wall, valid_W_wall, valid_E_wall,
+          found_sala, no_wall, ponto_int: std_logic;
+   ---------------
+   -- registers --
+   ---------------
+   signal X0,X1,Y0,Y1, x_int, y_int, delt_x, delt_y, x_starter, y_starter : std_logic_vector(5 downto 0);
+   signal count, num_sala, comparar : std_logic_vector(3 downto 0);
+begin
+   ----  coordenadas das salas ----------------------------------------------------------------
+   process (reset, clock)
+   begin
+      if reset='1' then 
+            cont_sala <= (others=>'0');
+      elsif clock'event and clock='1' then
+            if  prog='1' then
+               salas(conv_integer(cont_sala)).x <= x;
+               salas(conv_integer(cont_sala)).y <= y;
+               if cont_sala<N_SALAS then
+                     cont_sala <= cont_sala + 1;
+               end if;
+            end if;
+      end if;
+   end process;
+
+   ---- acesso à memória externa ----------------------------------------------------------------------
+   address <= y_int & x_int; -- para endereçar a memória basta fazer "Y & X" (concatenação)
+
+   ----  máquina de estados de controle ---------------------------------------------------------------
+   process (reset, clock)
+   begin
+      if reset='1' then 
+         EA <= init;
+      elsif clock'event and clock='1' then
+         EA <= PE;
+      end if;
+   end process;
+
+   ---- processo para definir o proximo estado --------------------------------------------------------
+   process (EA, prog, achar, found_x0, found_x1, found_y0, found_y1, no_wall, valid_N_wall, valid_S_wall, valid_W_wall, valid_E_wall, found_sala)
+   begin
+      case EA is
+         ------------------------------
+         ------ waiting for prog ------
+         ------------------------------
+         when init =>  
+               if prog = '1' then
+                  PE <= receiving_rooms;
+               end if ;
+               if prog = '0' and cont_sala = N_SALAS then
+                  PE <= waiting_coords;
+                end if;
+         ------------------------------------------------------------
+         ------ waiting for rooms and coordinates do find room ------
+         ------------------------------------------------------------
+         when receiving_rooms =>
+               if prog = '0' and cont_sala = N_SALAS then
+                 PE <= waiting_coords;
+               end if;
+         
+         when waiting_coords =>
+               if achar = '1' then
+                  PE <= set_find_y1;
+               end if;
+         
+         when not_in_room =>
+               PE <= waiting_coords;           
+         -----------------------------------------------------------
+         ------ resetting the coordinates to find the corners ------
+         -----------------------------------------------------------
+         when set_find_y1 => 
+                  PE <= find_y1;
+         when set_find_y0 => 
+                  PE <= find_y0;
+         when set_find_x0 =>  
+                  PE <= find_x0;
+         when set_find_x1 =>
+                  PE <= find_x1;
+         -----------------------------
+         ------ finding corners ------
+         -----------------------------
+         when find_y0 =>
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+               if found_y0 = '1' then
+                  PE <= set_find_x1;
+               end if;
+         when find_y1 =>
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+               if found_y1 = '1' then
+                  PE <= set_find_y0;
+               end if;
+         when find_x0 =>
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+               if found_x0 = '1' then
+                  PE <= set_ver_N_wall;
+               end if;
+         when find_x1 =>
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+               if found_x1 = '1' then
+                  PE <= set_find_x0;
+               end if;
+         ------------------------------------------------------------
+         ------ resetting coordinates to check wall continuity ------
+         ------------------------------------------------------------
+         when set_ver_N_wall =>
+                  PE <= ver_N_wall;
+         when set_ver_S_wall =>
+                  PE <= ver_S_wall;
+         when set_ver_W_wall =>
+                  PE <= ver_W_wall;
+         when set_ver_E_wall =>
+                  PE <= ver_E_wall;
+         ------------------------------------------
+         ------ checking continuity of walls ------
+         ------------------------------------------
+         when ver_N_wall =>
+               if valid_N_wall = '1' then
+                  PE <= set_ver_S_wall;
+               end if;
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+         when ver_S_wall =>
+               if valid_S_wall = '1' then
+                  PE <= set_ver_W_wall;
+               end if;
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+         when ver_W_wall =>
+               if valid_W_wall = '1' then
+                  PE <= set_ver_E_wall;
+               end if;
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+         when ver_E_wall =>
+               if valid_E_wall = '1' then
+                  PE <= delta_x_y;
+               end if;
+               if no_wall = '1' then
+                  PE <= not_in_room;
+               end if;
+         -------------------------------
+         ------ indentifying room ------
+         -------------------------------
+         when  delta_x_y =>
+                  PE <= identify_room;
+                  
+         when identify_room =>
+                  if found_sala ='1' then
+                     PE <= fim_state;
+                  end if;
+                  if no_wall = '1' then
+                     PE <= not_in_room;
+                  end if;
+         when fim_state =>
+                  PE <= init;
+         ------
+      end case;
+   end process;
+   
+   ----  processo para controlar os registradores -----------------------------------------------------
+   process (reset, clock)
+   begin
+      if reset='1' then
+         x0 <= (others => '0');
+         y0 <= (others => '0');
+         x1 <= (others => '0');
+         y1 <= (others => '0');
+         y_starter <= (others => '0');
+         x_starter <= (others => '0');
+         x_int <= (others => '0');
+         y_int <= (others => '0');
+         count <= (others=>'0');
+         no_wall <= '0';
+         valid_N_wall <= '0';
+         valid_S_wall <= '0';
+         valid_W_wall <= '0';
+         valid_E_wall <= '0';
+         found_x0 <= '0';
+         found_x1 <= '0';
+         found_y0 <= '0';
+         found_y1 <= '0';
+         delt_x <= (others => '0');
+         delt_y <= (others => '0');
+         sala <= (others => '0');
+         found_sala <=  '0';
+         num_sala <= (others => '0');
+         fim <= '0';
+         count <= (others => '0');
+         
+      elsif clock'event and clock='1' then
+         ponto_int <= ponto;
+         case (EA) is
+            when init =>
+                  x0 <= (others => '0');
+                  y0 <= (others => '0');
+                  x1 <= (others => '0');
+                  y1 <= (others => '0');
+                  y_starter <= (others => '0');
+                  x_starter <= (others => '0');
+                  x_int <= (others => '0');
+                  y_int <= (others => '0');
+                  count <= (others=>'0');
+                  no_wall <= '0';
+                  valid_N_wall <= '0';
+                  valid_S_wall <= '0';
+                  valid_W_wall <= '0';
+                  valid_E_wall <= '0';
+                  found_x0 <= '0';
+                  found_x1 <= '0';
+                  found_y0 <= '0';
+                  found_y1 <= '0';
+                  delt_x <= (others => '0');
+                  delt_y <= (others => '0');
+                  -- sala <= (others => '0');
+                  found_sala <=  '0';
+                  num_sala <= (others => '0');
+                  fim <= '0';
+                  count <= (others => '0');
+            when receiving_rooms =>
+            when waiting_coords =>
+                  fim<= '0';
+                  x_starter <= x;
+                  y_starter <= y;
+
+            when not_in_room =>
+                  found_x0 <= '0';
+                  found_x1 <= '0';
+                  found_y0 <= '0';
+                  found_y1 <= '0';
+                  fim <= '1';
+                  x0 <= (others=>'0');
+                  x1 <= (others=>'0');
+                  y0 <= (others=>'0');
+                  y1 <= (others=>'0');
+                  valid_N_wall <= '0';
+                  valid_S_wall <= '0';
+                  valid_W_wall <= '0';
+                  valid_E_wall <= '0';
+                  no_wall <= '0';
+                  sala <= "0000";
+            -----------------------------
+            ------ FINDING CORNERS ------
+            -----------------------------
+            ------------------------
+            ------ FINDING Y1 ------
+            ------------------------
+            when set_find_y1 =>
+                  x_int <= x_starter;
+                  y_int <= y_starter;
+                  
+            when find_y1 =>
+                  if ponto /= '1' then
+                     if y_int = "000000" then
+                        no_wall <= '1';
+                        --fim <= '1';
+                     end if;
+                     y_int <= y_int + "000001";
+                  else
+                     y1 <= y_int;
+                     found_y1 <= '1';
+                  end if;
+            ------------------------
+            ------ FINDING Y0 ------
+            ------------------------
+            when set_find_y0 =>
+                  x_int <= x_starter;
+                  y_int <= y_starter;
+            
+            when find_y0 =>
+                  if ponto /= '1' then
+                     if y_int = "000000" then
+                        no_wall <= '1';
+                        -- fim <= '1';
+                     end if;
+                     y_int <= y_int - "000001";
+                  else
+                     y0 <= y_int;
+                     found_y0 <= '1';
+                  end if;
+            ------------------------
+            ------ FINDING X0 ------
+            ------------------------
+            when set_find_x0 =>
+                  x_int <= x_starter;
+                  y_int <= y_starter;
+
+            when find_x0 =>
+                  if ponto /= '1' then
+                     if x_int = "000000" then
+                        no_wall <= '1';
+                        -- fim <= '1';
+                     end if;
+                     x_int <= x_int - "000001";
+                  else
+                     x0 <= x_int;
+                     found_x0 <= '1';
+                  end if;
+            ------------------------
+            ------ FINDING X1 ------
+            ------------------------
+            when set_find_x1 =>
+                  x_int <= x_starter;
+                  y_int <= y_starter;
+
+            when find_x1 =>
+                  if ponto /= '1' then
+                     if x_int = "000000" or x_int = "111111" then
+                        no_wall <= '1';
+                        -- fim <= '1';
+                     end if;
+                     x_int <= x_int + "000001";
+                  else
+                     x1 <= x_int;
+                     found_x1 <= '1';
+                  end if;
+            ------------------------------------------
+            ------ CHECKING CONTINUITY OF WALLS ------
+            ------------------------------------------
+            -----------------------------
+            ------ checking N wall ------
+            -----------------------------
+            when set_ver_N_wall =>
+                     x_int <= x0;
+                     y_int <= y1;
+            when ver_N_wall =>
+                     if ponto = '1' then
+                        x_int <= x_int + "000001";
+                        if x_int = x1 then
+                           valid_N_wall <= '1';
+                        end if;
+                        if x_int > x1 then
+                           no_wall <= '1'; 
+                           -- fim <= '1';
+                        end if; 
+                     else
+                        no_wall <= '1';
+                        -- fim <= '1';
+                     end if;
+            -----------------------------
+            ------ checking S wall ------
+            -----------------------------
+            when set_ver_S_wall =>
+                     no_wall <= '0';
+                     x_int <= x0;
+                     y_int <= y0;
+            when ver_S_wall =>
+                     if ponto = '1' then
+                        x_int <= x_int + "000001";
+                        if x_int = x1 then
+                           valid_S_wall <= '1';
+                        end if;
+                        if x_int > x1 then
+                           no_wall <= '1'; 
+                           -- fim <= '1';
+                        end if; 
+                     else
+                        no_wall <= '1';
+                        -- fim <= '1';
+                     end if;
+            -----------------------------
+            ------ checking W wall ------
+            -----------------------------
+            when set_ver_W_wall =>
+                     no_wall <= '0';
+                     x_int <= x0;
+                     y_int <= y1;
+            when ver_W_wall =>
+                     if ponto = '1' then
+                        y_int <= y_int - "000001";
+                        if y_int = y0 then
+                           valid_W_wall <= '1';
+                        end if;
+                        if y_int < y0 then
+                           no_wall <= '1'; 
+                           -- fim <= '1';
+                        end if; 
+                     else
+                        no_wall <= '1';
+                        -- fim <= '1';
+                     end if;
+            -----------------------------
+            ------ checking E wall ------
+            -----------------------------
+            when set_ver_E_wall =>
+                     no_wall <= '0';
+                     x_int <= x1;
+                     y_int <= y1;
+            when ver_E_wall =>
+                     if ponto = '1' then
+                        y_int <= y_int - "000001";
+                        if y_int = y0 then
+                           valid_E_wall <= '1';
+                        end if;
+                        if y_int < y0 then
+                           no_wall <= '1'; 
+                           -- fim <= '1';
+                        end if; 
+                     else
+                        no_wall <= '1';
+                        -- fim <= '1';
+                     end if;
+            when delta_x_y =>
+                     delt_x <= (x1 - x0) + "000001";
+                     delt_y <= (y1 - y0) + "000001";
+                     no_wall <= '0';
+            when identify_room =>
+                     
+                     if salas(conv_integer(count)).x = delt_x and salas(conv_integer(count)).y = delt_y then
+                        found_sala <= '1';
+                        num_sala <= count;
+                        end if;
+                     if count < comparar then
+                        count <= count + "0001";
+                     else
+                        num_sala <= "0000";
+                        no_wall <= '1';
+                     end if;
+            when fim_state =>
+                     fim <= '1';
+                     sala <= num_sala;
+         end case;
+      end if;
+   end process;
+   comparar <= CONV_STD_LOGIC_VECTOR(n_salas, 4);
+
+         
+ end ondeestou;
